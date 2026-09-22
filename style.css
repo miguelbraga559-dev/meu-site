@@ -32,6 +32,15 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+
+}
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -50,14 +59,17 @@ section h2 {
     padding-bottom: 5px;
 }
   @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+
+    }
     header {
         padding: 15px;
     }
 
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+
 
     main {
         padding: 10px;
@@ -69,6 +81,14 @@ section h2 {
 
     h1 {
         font-size: 1.5rem;
+    }
+    #menu-toggle {
+        display: block;
+    }
+   
+    nav ul.aberto {
+        display: flex;
+
     }
 }
         
