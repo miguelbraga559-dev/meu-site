@@ -2,7 +2,7 @@
 
 Meu site pessoal, criado para aprender desenvolvimento web e reunir meus projetos como estudante de Análise e Desenvolvimento de Sistemas.
 
-🔗 **Site:** https://miguelbraga559-dev.github.io/meu-site
+🔗 **Site:**  https://miguelbraga559-dev.github.io/meu-site/
 
 ## Tecnologias
 
